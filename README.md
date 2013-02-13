@@ -1,12 +1,13 @@
 # Scons Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
-* `homebrew`
-
 ## Usage
 
 ```puppet
 include scons
 ```
+
+## Required Puppet Modules
+
+* `boxen`
+* `homebrew`
+* `stdlib`
